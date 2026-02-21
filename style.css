@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f2f4f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.app{
+    width:350px;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+input, button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    font-size:14px;
+}
+
+button{
+    background:#111;
+    color:white;
+    border:none;
+}
